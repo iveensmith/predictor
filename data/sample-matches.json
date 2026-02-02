@@ -1,0 +1,27 @@
+[
+  {
+    "home_team": "Arsenal",
+    "away_team": "Liverpool",
+    "kickoff_time": "2024-07-20T18:00:00Z"
+  },
+  {
+    "home_team": "Barcelona",
+    "away_team": "Real Madrid",
+    "kickoff_time": "2024-07-20T20:30:00Z"
+  },
+  {
+    "home_team": "Bayern Munich",
+    "away_team": "Borussia Dortmund",
+    "kickoff_time": "2024-07-21T16:00:00Z"
+  },
+  {
+    "home_team": "Inter",
+    "away_team": "AC Milan",
+    "kickoff_time": "2024-07-21T18:00:00Z"
+  },
+  {
+    "home_team": "PSG",
+    "away_team": "Marseille",
+    "kickoff_time": "2024-07-22T19:00:00Z"
+  }
+]

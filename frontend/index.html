@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Match Predictor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="app__header">
+        <div>
+          <h1>Match Predictor</h1>
+          <p class="subtitle">Fast football picks. Points only.</p>
+        </div>
+        <div class="profile">
+          <img id="avatar" src="https://i.pravatar.cc/64?img=12" alt="Avatar" />
+          <div>
+            <p id="username">@player</p>
+            <p class="points"><span id="points">0</span> pts</p>
+          </div>
+        </div>
+      </header>
+
+      <section class="notice">
+        <strong>This is a prediction game, not gambling.</strong>
+        <p>No real money wagers. No cash payouts. Play for fun points and badges.</p>
+      </section>
+
+      <section class="cards">
+        <div class="card">
+          <h2>Daily Limit</h2>
+          <p><span id="predictions-today">0</span>/<span id="daily-limit">5</span> predictions</p>
+          <div class="progress">
+            <div id="daily-progress" class="progress__fill"></div>
+          </div>
+        </div>
+        <div class="card">
+          <h2>Streak</h2>
+          <p>3 day streak 🔥</p>
+        </div>
+        <div class="card">
+          <h2>Boost Tokens</h2>
+          <p><span id="boost-tokens">0</span> available</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__header">
+          <h2>Today’s Matches</h2>
+          <button class="primary">Refresh</button>
+        </div>
+        <div id="matches" class="matches"></div>
+      </section>
+
+      <section class="section">
+        <div class="section__header">
+          <h2>AI Insight (Premium)</h2>
+          <span class="badge">Not betting advice</span>
+        </div>
+        <div class="insight">
+          <p>Arsenal win chance: <strong>54%</strong></p>
+          <p>Form: <strong>W-W-D</strong></p>
+          <p>Trend: <strong>Home advantage</strong></p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__header">
+          <h2>Weekly Leaderboard</h2>
+          <span class="badge">Resets Monday</span>
+        </div>
+        <ol id="leaderboard" class="leaderboard"></ol>
+      </section>
+
+      <section class="section">
+        <div class="section__header">
+          <h2>Referral Rewards</h2>
+          <span class="badge">Earn Boost Tokens</span>
+        </div>
+        <div class="referral">
+          <p>Invite friends and both earn +1 boost token.</p>
+          <div class="referral__code" id="referral-code">MP-XXXX</div>
+          <button class="secondary">Share Invite</button>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__header">
+          <h2>Weekly Prizes</h2>
+        </div>
+        <div class="prizes">
+          <div class="prize">🥇 Gold Badge + 50 bonus points</div>
+          <div class="prize">🥈 Silver Badge + 30 bonus points</div>
+          <div class="prize">🥉 Bronze Badge + 15 bonus points</div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>Premium Mode: extra daily predictions and AI Insight hints.</p>
+        <p>Ready for future TON integration (wallet linking coming soon).</p>
+      </footer>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
